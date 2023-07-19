@@ -1,0 +1,67 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  /* display: flex; */
+}
+/* 
+.carousel {
+  display: flex;
+  position: relative;
+  gap: 25px;
+} */
+
+.carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 400px;
+}
+
+.slide {
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 7px #666;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-hidden {
+  display: none;
+}
+
+.leftbtn {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  font-size: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  /* opacity: 50%; */
+  cursor: pointer;
+}
+
+.rightbtn {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  font-size: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  /* opacity: 50%; */
+  cursor: pointer;
+  /* animation: animate; */
+}
+
+.showImg {
+  display: block;
+  width: 100%;
+  transition: 1.5ms;
+  /* animation: animate 0.5s; */
+  /* transition: transform(); */
+  /* transform: ; */
+}
+
+.dontshowImg {
+  display: none;
+}
